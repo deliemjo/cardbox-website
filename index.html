@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karteikasten — Lern-App für iOS</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --blue: #4A3AFF;
@@ -26,7 +24,7 @@
         }
 
         body {
-            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.6;
@@ -335,40 +333,56 @@
     <div class="feature-card">
         <div class="icon">🔒</div>
         <h3>100% privat</h3>
-        <p>Alle Daten bleiben auf deinem Gerät. Kein Account, kein Tracking, keine Cloud. Deine Daten gehören dir.</p>
+        <p>Kein Account, kein Tracking, keine Werbung. Deine Karten bleiben auf deinem Gerät – und auf Wunsch über dein eigenes iCloud auf deinen anderen Geräten.</p>
     </div>
 </section>
 
 <!-- Datenschutz -->
+<!-- Vor Einreichung: alle .placeholder-Stellen ersetzen und "Stand" aktualisieren. -->
 <section class="legal" id="datenschutz">
     <h2>Datenschutzerklärung</h2>
 
     <h3>1. Verantwortlicher</h3>
-    <p><span class="placeholder">⚠️ DEIN VOLLER NAME, ADRESSE UND E-MAIL HIER EINTRAGEN</span></p>
+    <p>
+        <span class="placeholder">Vorname Nachname</span><br>
+        <span class="placeholder">Straße Hausnummer</span><br>
+        <span class="placeholder">PLZ Ort</span><br>
+        Deutschland<br>
+        E-Mail: <span class="placeholder">kontakt@beispiel.de</span>
+    </p>
 
-    <h3>2. Keine Erhebung personenbezogener Daten</h3>
-    <p>Die App „Karteikasten" erhebt, speichert oder verarbeitet keine personenbezogenen Daten. Es werden keine Daten an den Entwickler, an Dritte oder an Server übermittelt.</p>
+    <h3>2. Überblick</h3>
+    <p>Die App „Karteikasten" wurde so entwickelt, dass sie ohne personenbezogene Daten auskommt. Es gibt kein Benutzerkonto, keine Werbung, kein Tracking und keine Analyse-Tools. Der Entwickler erhält zu keinem Zeitpunkt Daten aus der App.</p>
 
-    <h3>3. Lokale Datenspeicherung</h3>
-    <p>Alle in der App erstellten Inhalte (Karteikästen und Karteikarten) werden ausschließlich lokal auf deinem Gerät gespeichert. Der Entwickler hat keinen Zugriff auf diese Daten.</p>
+    <h3>3. Speicherung auf deinem Gerät</h3>
+    <p>Alle Inhalte, die du in der App erstellst (Karteikästen und Karteikarten), werden lokal auf deinem Gerät gespeichert. Der Entwickler hat keinen Zugriff darauf. Wenn du die App löschst, werden auch diese Daten vollständig entfernt.</p>
 
-    <h3>4. Keine Analyse- oder Tracking-Tools</h3>
-    <p>Die App verwendet keine Analyse-Tools, kein Tracking, keine Cookies und keine Werbung. Es werden keinerlei Nutzungsdaten erfasst.</p>
+    <h3>4. Synchronisation über iCloud (optional)</h3>
+    <p>Wenn auf deinem Gerät iCloud für „Karteikasten" aktiviert ist, werden deine Karteikästen und Karten über Apples Dienst iCloud (CloudKit) in deinem privaten iCloud-Speicher abgelegt und mit deinen anderen Geräten abgeglichen, die mit derselben Apple-ID angemeldet sind. Diese Daten liegen ausschließlich in deinem eigenen iCloud-Konto; der Entwickler kann sie nicht einsehen. Verantwortlich für die Verarbeitung in iCloud ist Apple. Näheres findest du in der <a href="https://www.apple.com/de/legal/privacy/" rel="noopener">Datenschutzrichtlinie von Apple</a>. Du kannst die Synchronisation jederzeit in den iOS-Einstellungen unter „[Dein Name] › iCloud" ausschalten.</p>
 
     <h3>5. Keine Weitergabe an Dritte</h3>
-    <p>Da keine Daten erhoben werden, erfolgt auch keine Weitergabe an Dritte.</p>
+    <p>Die App enthält keine Werbe-, Analyse- oder Tracking-Bibliotheken von Drittanbietern. Es werden keine Daten an den Entwickler oder an Dritte übermittelt oder verkauft.</p>
 
-    <h3>6. Rechte der Nutzer</h3>
-    <p>Da keine personenbezogenen Daten verarbeitet werden, entfallen die üblichen Betroffenenrechte (Auskunft, Löschung etc.) in Bezug auf die App. Alle lokal gespeicherten Daten können jederzeit durch Löschen der App vollständig entfernt werden.</p>
+    <h3>6. Download über den App Store</h3>
+    <p>Die App wird über den Apple App Store vertrieben. Beim Herunterladen verarbeitet Apple Daten wie deine Apple-ID und Kaufinformationen in eigener Verantwortung. Darauf hat der Entwickler keinen Einfluss.</p>
 
-    <h3>7. Kontakt</h3>
-    <p>Bei Fragen zum Datenschutz kannst du dich an den Verantwortlichen wenden:</p>
-    <p><span class="placeholder">⚠️ DEINE E-MAIL-ADRESSE HIER EINTRAGEN</span></p>
+    <h3>7. Kinder</h3>
+    <p>„Karteikasten" richtet sich auch an Kinder. Die App erhebt von Kindern – wie von allen anderen Nutzern – keine personenbezogenen Daten, zeigt keine Werbung und enthält keine In-App-Käufe. Damit entspricht sie auch den Anforderungen des US-amerikanischen Children's Online Privacy Protection Act (COPPA) und den besonderen Schutzvorgaben der DSGVO für Kinder (Art. 8 DSGVO).</p>
 
-    <h3>8. Änderungen</h3>
-    <p>Diese Datenschutzerklärung kann bei Bedarf aktualisiert werden. Die aktuelle Version ist stets auf dieser Seite einsehbar.</p>
+    <h3>8. Diese Website</h3>
+    <p>Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite verarbeitet GitHub technisch notwendige Daten, insbesondere deine IP-Adresse, um die Seite auszuliefern und die Sicherheit des Dienstes zu gewährleisten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer sicheren und funktionsfähigen Website). GitHub ist unter dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen bietet die <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
+    <p>Diese Website setzt keine Cookies, verwendet keine Analyse-Tools und lädt keine Inhalte von externen Servern nach.</p>
 
-    <p><em>Stand: März 2026</em></p>
+    <h3>9. Deine Rechte</h3>
+    <p>Soweit personenbezogene Daten verarbeitet werden, hast du das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21). Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren, zum Beispiel bei der Landesbeauftragten für Datenschutz und Informationsfreiheit der Freien Hansestadt Bremen.</p>
+
+    <h3>10. Kontakt</h3>
+    <p>Bei Fragen zum Datenschutz erreichst du den Verantwortlichen unter: <span class="placeholder">kontakt@beispiel.de</span></p>
+
+    <h3>11. Änderungen</h3>
+    <p>Diese Datenschutzerklärung wird angepasst, wenn sich die App oder die rechtlichen Anforderungen ändern. Es gilt die jeweils auf dieser Seite veröffentlichte Fassung.</p>
+
+    <p><em>Stand: <span class="placeholder">Monat Jahr</span></em></p>
 </section>
 
 <!-- Impressum -->
@@ -376,9 +390,7 @@
     <h2>Impressum</h2>
 
     <h3>Angaben gemäß § 5 DDG</h3>
-
-    <p><span class="placeholder">⚠️ PLATZHALTER — VOR VERÖFFENTLICHUNG ERSETZEN:</span></p>
-
+    <!-- Statt der Privatadresse ist eine ladungsfähige Anschrift über einen Impressums-/Postfach-Service möglich. -->
     <p>
         <span class="placeholder">Vorname Nachname</span><br>
         <span class="placeholder">Straße Hausnummer</span><br>
@@ -387,13 +399,16 @@
     </p>
 
     <h3>Kontakt</h3>
-    <p>E-Mail: <span class="placeholder">deine@email.de</span></p>
+    <p>E-Mail: <span class="placeholder">kontakt@beispiel.de</span></p>
+
+    <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+    <p><span class="placeholder">Vorname Nachname</span>, Anschrift wie oben</p>
 
     <h3>Haftung für Inhalte</h3>
     <p>Die Inhalte dieser Seite wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch keine Gewähr übernommen.</p>
 
     <h3>Haftung für Links</h3>
-    <p>Diese Seite enthält ggf. Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss besteht. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich.</p>
+    <p>Diese Seite enthält Links zu externen Websites Dritter, auf deren Inhalte kein Einfluss besteht. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter verantwortlich.</p>
 </section>
 
 <footer>
